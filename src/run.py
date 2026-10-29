@@ -26,6 +26,8 @@ def run(input_path, output=ROOT / 'reports'):
     make_figures(df, output / 'figures')
     from .report import write_report
     write_report(raw, df, summary, output)
+    from .report_en import write_report_en
+    write_report_en(raw, df, summary, output)
     return df, summary
 
 

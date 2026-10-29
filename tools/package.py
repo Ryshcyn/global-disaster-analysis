@@ -4,7 +4,7 @@ import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
 TARGET = ROOT.parent / 'global-disaster-analysis-public.zip'
-patterns = ['README.md', 'requirements.txt', 'requirements-tested.txt', '.gitignore',
+patterns = ['README.md', 'README.en.md', 'requirements.txt', 'requirements-tested.txt', '.gitignore',
             'docs/*.md', 'src/*.py', 'tools/*.py', 'tests/*.py',
             'notebooks/*.ipynb', 'reports/*.md', 'reports/*.json',
             'reports/tables/*.csv', 'reports/figures/*.png',

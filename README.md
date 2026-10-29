@@ -1,5 +1,7 @@
 # Global Disaster Analysis
 
+[English overview](README.en.md) · [中文报告](reports/case-study.zh-CN.md) · [English report](reports/case-study.en.md)
+
 **全球自然灾害记录的分布、经济损失集中度与数据覆盖分析。**
 
 Python · Pandas · NumPy · Matplotlib · Plotly · Jupyter
@@ -27,6 +29,7 @@ Python · Pandas · NumPy · Matplotlib · Plotly · Jupyter
 ## 查看成果
 
 - [完整中文分析报告](reports/case-study.zh-CN.md)：原始数据结构、清洗流程、八个图表模块及综合讨论。
+- [Full English report](reports/case-study.en.md): dataset structure, preprocessing, eight analytical modules and discussion.
 - [已执行 Notebook](notebooks/disaster_analysis.ipynb)：从读取到汇总、出图的完整流程。
 - [离线交互式国家排名](reports/figures/08_country_explorer.html)：下载后用浏览器打开，无需网络。
 - [数据来源与获取](docs/DATA.md)、[分析方法](docs/METHODOLOGY.md)。

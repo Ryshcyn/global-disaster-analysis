@@ -64,6 +64,8 @@ def write_report(raw, df, summary, output):
     top3_loss_share = country_loss.head(3)['reported_damage_thousand_usd'].sum()/damage_total*100
     text = f'''# 全球自然灾害记录的多维度分析
 
+[English report](case-study.en.md) · [项目首页](../README.md)
+
 ## 摘要
 
 本研究围绕自然灾害记录的长期分布、地域差异与经济损失集中度，使用历史 CSV 数据进行探索性分析。
