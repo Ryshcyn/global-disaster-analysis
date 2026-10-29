@@ -108,6 +108,13 @@ def make_figures(df, output):
 
     # A country ranking retains hover details without remote map topology.
     country = t['countries'].sort_values('records', ascending=False).head(20)
+    top10 = country.head(10).sort_values('records')
+    fig, ax = plt.subplots(figsize=(10, 5.5))
+    ax.barh(top10['Country'], top10['records'], color=BLUE)
+    ax.bar_label(ax.containers[0], padding=4, fmt='%.0f', fontsize=10)
+    ax.set(title=f'Top 10 countries by recorded impacts | {window}', xlabel='Country-impact records')
+    ax.set_xlim(0, top10['records'].max() * 1.15)
+    save(fig, '08_country_records', 'Absolute counts; not adjusted for population, land area, exposure or reporting coverage.')
     fig = px.bar(country.sort_values('records'), x='records', y='Country', orientation='h',
                  hover_data=['damage_coverage_pct', 'reported_damage_thousand_usd'],
                  title=f'Top 20 countries by recorded disaster impacts | {window}',

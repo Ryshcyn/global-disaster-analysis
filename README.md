@@ -4,8 +4,8 @@
 
 Python · Pandas · NumPy · Matplotlib · Plotly · Jupyter
 
-本项目从课程分析整理为个人作品集，独立完成数据处理、统计分析、可视化与报告撰写。
-重点是建立一致的统计口径，并让每项发现都能追溯到代码、数据定义与计算结果。
+本项目基于全球自然灾害历史记录，开展数据质量评估、时间与地域分布分析、灾害类型比较及经济损失集中度分析。
+数据处理、统计分析、可视化与报告撰写独立完成；每项发现均可追溯到代码、数据定义与计算结果。
 
 ## 项目回答什么
 
@@ -26,10 +26,10 @@ Python · Pandas · NumPy · Matplotlib · Plotly · Jupyter
 
 ## 查看成果
 
-- [中文分析报告](reports/case-study.zh-CN.md)：主要发现、图表与边界。
+- [完整中文分析报告](reports/case-study.zh-CN.md)：原始数据结构、清洗流程、八个图表模块及综合讨论。
 - [已执行 Notebook](notebooks/disaster_analysis.ipynb)：从读取到汇总、出图的完整流程。
 - [离线交互式国家排名](reports/figures/08_country_explorer.html)：下载后用浏览器打开，无需网络。
-- [数据来源与获取](docs/DATA.md)、[方法与修订](docs/METHODOLOGY.md)、[项目讲解](docs/INTERVIEW.zh-CN.md)。
+- [数据来源与获取](docs/DATA.md)、[分析方法](docs/METHODOLOGY.md)。
 
 GitHub 不直接执行 HTML 内的交互脚本；README、报告和 Notebook 中的静态图可直接查看。
 
