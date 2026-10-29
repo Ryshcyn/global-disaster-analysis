@@ -1,0 +1,14 @@
+Disaster Type,Africa,Americas,Asia,Europe,Oceania
+Animal accident,1,0,0,0,0
+Drought,287,153,161,44,30
+Earthquake,53,223,656,136,50
+Epidemic,856,162,340,46,27
+Extreme temperature,20,102,180,272,8
+Flood,1089,1150,2103,620,150
+Impact,0,0,0,1,0
+Insect infestation,74,3,13,1,2
+Landslide,57,164,400,61,21
+Mass movement (dry),5,9,21,4,2
+Storm,272,1214,1630,513,293
+Volcanic activity,17,81,82,9,25
+Wildfire,32,160,89,114,41

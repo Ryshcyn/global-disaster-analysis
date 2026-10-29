@@ -1,0 +1,8 @@
+# Direct dependency versions used for the saved outputs (Python 3.12).
+pandas==2.2.3
+numpy==2.5.4
+matplotlib==3.11.2
+plotly==7.1.0
+nbformat==5.11.1
+nbclient==0.11.0
+ipykernel==7.4.0

@@ -1,0 +1,20 @@
+{
+  "start_year": 1970,
+  "end_year": 2020,
+  "records": 14329,
+  "distinct_event_ids": 12660,
+  "countries": 228,
+  "damage_missing_pct": 66.62014097285225,
+  "deaths_missing_pct": 30.155628445809196,
+  "month_unknown_records": 266,
+  "invalid_month_records": 0,
+  "reported_damage_trillion_usd": 3.670407972,
+  "pareto": {
+    "observed_records": 4783,
+    "top_records": 486,
+    "top_share_pct": 10.160986828350408
+  },
+  "input_rows": 14644,
+  "excluded_outside_window": 315,
+  "input_sha256": "897afbb5688980b43d3568923c9f2375aa669514c5c2ce7262ca64b55e8d7fdb"
+}
